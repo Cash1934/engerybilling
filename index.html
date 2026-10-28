@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energy Bill Support & Utility Assistance Helpline | Independent Advisory</title>
+  <meta name="description" content="Instant telephone assistance for energy billing inquiries, bill payment options, new service setup, and electricity rate comparisons. Call +1 (512) 715-4463 now.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0284c7">
+  
+  <!-- Preconnect to Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --primary-light: #e0f2fe;
+      --secondary: #0f172a;
+      --accent: #10b981;
+      --accent-dark: #059669;
+      --amber: #f59e0b;
+      --amber-bg: #fffbeb;
+      --amber-border: #fef3c7;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --bg-light: #f8fafc;
+      --border-color: #e2e8f0;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      --shadow-glow: 0 0 25px rgba(2, 132, 199, 0.45);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text-main);
+      background-color: #ffffff;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 75px; /* space for sticky mobile CTA */
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding-bottom: 0;
+      }
+    }
+
+    /* Top Disclaimer Banner - Crucial for Google Ads Policy */
+    .compliance-banner {
+      background: #fef3c7;
+      color: #92400e;
+      border-bottom: 1px solid #fde68a;
+      padding: 9px 16px;
+      font-size: 0.8125rem;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .compliance-banner strong {
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    /* Navigation */
+    .navbar {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--secondary);
+    }
+
+    .brand-icon {
+      width: 42px;
+      height: 42px;
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+    }
+
+    .brand-text h1 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--secondary);
+      line-height: 1.2;
+    }
+
+    .brand-text span {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      display: block;
+    }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .nav-phone-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      padding: 10px 18px;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: 1px solid #bae6fd;
+    }
+
+    .nav-phone-link:hover {
+      background: var(--primary);
+      color: #ffffff;
+      transform: translateY(-1px);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(180deg, #f0f9ff 0%, #ffffff 100%);
+      padding: 44px 20px 56px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffffff;
+      border: 1px solid #bae6fd;
+      padding: 6px 16px;
+      border-radius: 9999px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--primary-dark);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 20px;
+    }
+
+    .hero-badge .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+
+    .hero h2 {
+      font-size: 2.3rem;
+      font-weight: 800;
+      color: var(--secondary);
+      line-height: 1.25;
+      max-width: 860px;
+      margin: 0 auto 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .hero h2 span {
+      color: var(--primary);
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.075rem;
+      color: var(--text-muted);
+      max-width: 720px;
+      margin: 0 auto 32px;
+    }
+
+    /* Massive Primary Call Button */
+    .cta-card {
+      background: #ffffff;
+      border: 2px solid #bae6fd;
+      border-radius: 24px;
+      padding: 24px;
+      max-width: 580px;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .call-btn-hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 18px 28px;
+      border-radius: 18px;
+      font-size: 1.35rem;
+      font-weight: 800;
+      box-shadow: var(--shadow-glow);
+      transition: all 0.25s ease;
+      position: relative;
+      animation: heartbeat 2.5s infinite;
+    }
+
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      14% { transform: scale(1.02); }
+      28% { transform: scale(1); }
+      42% { transform: scale(1.02); }
+      70% { transform: scale(1); }
+    }
+
+    .call-btn-hero:hover {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 0 35px rgba(2, 132, 199, 0.6);
+      background: linear-gradient(135deg, #0369a1 0%, #075985 100%);
+    }
+
+    .call-btn-hero svg {
+      width: 28px;
+      height: 28px;
+      animation: wiggle 1.2s ease infinite;
+    }
+
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(0deg); }
+      20% { transform: rotate(-12deg); }
+      40% { transform: rotate(12deg); }
+      60% { transform: rotate(-6deg); }
+      80% { transform: rotate(6deg); }
+    }
+
+    .cta-meta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 14px;
+      font-size: 0.825rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .cta-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* Trust Pill Bar */
+    .trust-strip {
+      background: #ffffff;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      padding: 18px 20px;
+    }
+
+    .trust-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 16px;
+      text-align: center;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--secondary);
+    }
+
+    .trust-item svg {
+      color: var(--accent);
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+    }
+
+    /* Services Section */
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 44px;
+    }
+
+    .section-subtitle {
+      font-size: 0.8125rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .section-header h3 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: var(--secondary);
+      letter-spacing: -0.01em;
+      margin-bottom: 12px;
+    }
+
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 18px;
+      padding: 28px 22px;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: #bae6fd;
+    }
+
+    .card-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+
+    .card h4 {
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: var(--secondary);
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.925rem;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+
+    .card-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background: #f1f5f9;
+      color: var(--secondary);
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .card:hover .card-btn {
+      background: var(--primary);
+      color: #ffffff;
+    }
+
+    /* Steps Section */
+    .steps-section {
+      background: #f8fafc;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      padding: 60px 20px;
+    }
+
+    .steps-container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .step-box {
+      background: #ffffff;
+      padding: 30px 24px;
+      border-radius: 16px;
+      border: 1px solid var(--border-color);
+      position: relative;
+      text-align: center;
+    }
+
+    .step-number {
+      position: absolute;
+      top: -16px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 36px;
+      height: 36px;
+      background: var(--primary);
+      color: #ffffff;
+      border-radius: 50%;
+      font-weight: 800;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid #ffffff;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .step-box h5 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin: 10px 0 8px;
+      color: var(--secondary);
+    }
+
+    .step-box p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    /* Mid Banner Callout */
+    .mid-cta {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      border-radius: 24px;
+      padding: 48px 24px;
+      text-align: center;
+      margin: 50px auto 0;
+      max-width: 1100px;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .mid-cta h3 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+
+    .mid-cta p {
+      font-size: 1.05rem;
+      color: #cbd5e1;
+      max-width: 650px;
+      margin: 0 auto 28px;
+    }
+
+    .mid-cta .btn-white {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: #ffffff;
+      color: #0f172a;
+      padding: 16px 32px;
+      border-radius: 16px;
+      font-size: 1.25rem;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+      transition: all 0.2s ease;
+    }
+
+    .mid-cta .btn-white:hover {
+      background: #f0fdf4;
+      color: #047857;
+      transform: translateY(-2px);
+    }
+
+    /* FAQ Section */
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: all 0.2s ease;
+    }
+
+    .faq-question {
+      padding: 18px 22px;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--secondary);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .faq-question:hover {
+      color: var(--primary);
+      background: #f8fafc;
+    }
+
+    .faq-chevron {
+      transition: transform 0.25s ease;
+      width: 20px;
+      height: 20px;
+      color: var(--text-muted);
+    }
+
+    .faq-item.active .faq-chevron {
+      transform: rotate(180deg);
+      color: var(--primary);
+    }
+
+    .faq-answer {
+      padding: 0 22px 18px;
+      color: var(--text-muted);
+      font-size: 0.925rem;
+      display: none;
+      line-height: 1.6;
+      border-top: 1px solid #f1f5f9;
+      padding-top: 14px;
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    /* Legal Disclaimers Box (Google Ads Non-Affiliation Protection) */
+    .legal-highlight-box {
+      background: #fffbeb;
+      border: 2px dashed #f59e0b;
+      border-radius: 16px;
+      padding: 24px;
+      margin: 40px auto;
+      max-width: 900px;
+    }
+
+    .legal-highlight-box h4 {
+      color: #92400e;
+      font-size: 1.1rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legal-highlight-box p {
+      color: #78350f;
+      font-size: 0.875rem;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .legal-highlight-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Footer */
+    .footer {
+      background: #0f172a;
+      color: #94a3b8;
+      padding: 50px 20px 30px;
+      border-top: 1px solid #1e293b;
+      font-size: 0.85rem;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 36px;
+      margin-bottom: 40px;
+    }
+
+    .footer-col h5 {
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .footer-col p {
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+
+    .footer-col a {
+      color: #cbd5e1;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .footer-col a:hover {
+      color: #38bdf8;
+    }
+
+    .footer-contacts li {
+      list-style: none;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .footer-contacts svg {
+      width: 18px;
+      height: 18px;
+      color: #38bdf8;
+      flex-shrink: 0;
+    }
+
+    .footer-links {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 8px;
+    }
+
+    .footer-links button {
+      background: none;
+      border: none;
+      color: #cbd5e1;
+      font-size: 0.85rem;
+      cursor: pointer;
+      padding: 0;
+      font-family: inherit;
+      text-decoration: underline;
+    }
+
+    .footer-links button:hover {
+      color: #38bdf8;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #1e293b;
+      padding-top: 24px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #64748b;
+    }
+
+    /* Modals for Terms, Privacy, Disclaimer */
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(15, 23, 42, 0.75);
+      z-index: 100;
+      backdrop-filter: blur(4px);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal-card {
+      background: #ffffff;
+      color: var(--text-main);
+      width: 100%;
+      max-width: 720px;
+      max-height: 85vh;
+      border-radius: 20px;
+      padding: 30px;
+      overflow-y: auto;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 14px;
+      margin-bottom: 18px;
+    }
+
+    .modal-header h3 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--secondary);
+    }
+
+    .modal-close-btn {
+      background: #f1f5f9;
+      border: none;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      font-size: 1.1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--secondary);
+      transition: all 0.2s ease;
+    }
+
+    .modal-close-btn:hover {
+      background: #e2e8f0;
+    }
+
+    .modal-body {
+      font-size: 0.875rem;
+      color: #475569;
+      line-height: 1.65;
+    }
+
+    .modal-body h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--secondary);
+      margin: 16px 0 6px;
+    }
+
+    .modal-body p {
+      margin-bottom: 12px;
+    }
+
+    .modal-body ul {
+      margin: 0 0 12px 20px;
+    }
+
+    /* Fixed Sticky Mobile Call Bar */
+    .sticky-call-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #ffffff;
+      padding: 10px 14px;
+      box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.12);
+      border-top: 1px solid var(--border-color);
+      z-index: 50;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    @media (min-width: 768px) {
+      .sticky-call-bar {
+        display: none;
+      }
+    }
+
+    .sticky-call-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+      color: #ffffff;
+      text-decoration: none;
+      width: 100%;
+      padding: 13px 20px;
+      border-radius: 14px;
+      font-weight: 800;
+      font-size: 1.05rem;
+      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.35);
+    }
+
+    .sticky-call-btn svg {
+      width: 22px;
+      height: 22px;
+      animation: wiggle 1.4s ease infinite;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 640px) {
+      .hero h2 {
+        font-size: 1.75rem;
+      }
+      .call-btn-hero {
+        font-size: 1.15rem;
+        padding: 15px 18px;
+      }
+      .nav-container {
+        padding: 10px 14px;
+      }
+      .nav-phone-link span.btn-label {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. MANDATORY GOOGLE ADS COMPLIANCE DISCLAIMER (STRICT NON-AFFILIATION) -->
+  <div class="compliance-banner">
+    <strong>Notice:</strong> Independent consumer utility assistance directory. We are a private entity and <strong>NOT</strong> affiliated with, endorsed by, or representing any public utility, municipal power company, or government agency.
+  </div>
+
+  <!-- 2. NAVIGATION BAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo" aria-label="EnergyAssist Hub Home">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>EnergyAssist Hub</h1>
+          <span>Independent Utility Support</span>
+        </div>
+      </a>
+
+      <div class="nav-cta">
+        <a href="tel:+15127154463" class="nav-phone-link" aria-label="Call +15127154463">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span class="btn-label">Call Now:</span>
+          <span>(512) 715-4463</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION (100% FOCUS ON CALL-TO-CLICK) -->
+  <section class="hero">
+    <div class="hero-badge">
+      <span class="pulse-dot"></span>
+      Live Representatives Available &bull; Rapid Phone Assistance
+    </div>
+    
+    <h2>Need Immediate <span>Energy Bill & Utility</span> Support?</h2>
+    <p>Skip long automated hold queues. Call our independent energy customer helpline for instant guidance on bill payments, billing disputes, service setups, and plan comparisons.</p>
+
+    <!-- Massive Call Card -->
+    <div class="cta-card">
+      <a href="tel:+15127154463" class="call-btn-hero" id="mainHeroCallBtn" aria-label="Call +15127154463">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+        <span>Call (512) 715-4463</span>
+      </a>
+      <div class="cta-meta">
+        <span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          Direct Line Connection
+        </span>
+        <span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          24/7 Agent Availability
+        </span>
+        <span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          100% Confidential
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. TRUST STRIP -->
+  <div class="trust-strip">
+    <div class="trust-container">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        <span>No Automated Phone Trees</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        <span>Clear Billing Explanations</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        <span>Strict Non-Affiliation Compliance</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
+        <span>Live Assistance Specialists</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. SERVICES / ASSISTANCE CATEGORIES -->
+  <section class="section" id="services">
+    <div class="section-header">
+      <span class="section-subtitle">Dedicated Phone Services</span>
+      <h3>How Our Energy Specialists Can Help You</h3>
+      <p>We provide telephone guidance and navigation support for everyday residential and commercial electricity concerns.</p>
+    </div>
+
+    <div class="cards-grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+          </div>
+          <h4>Bill Payment Guidance</h4>
+          <p>Get step-by-step assistance navigating payment portals, hardship relief programs, extension requests, and payment arrangement options.</p>
+        </div>
+        <a href="tel:+15127154463" class="card-btn">
+          <span>Call For Payment Help</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </div>
+          <h4>Billing Inquiries & Discrepancies</h4>
+          <p>Unclear high charges, unexpected fee adjustments, or estimated meter readings? We help review your bill line-items and prepare your dispute.</p>
+        </div>
+        <a href="tel:+15127154463" class="card-btn">
+          <span>Call About High Bills</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </div>
+          <h4>New Service Setup & Moving</h4>
+          <p>Moving into a new residence or commercial building? Get connected with local electric plans, transfer dates, and deposit exemption advice.</p>
+        </div>
+        <a href="tel:+15127154463" class="card-btn">
+          <span>Call To Setup Service</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+          </div>
+          <h4>Rate Comparison & Plans</h4>
+          <p>Compare fixed-rate vs variable plans, green energy options, and contract expiration reviews to help reduce monthly electricity costs.</p>
+        </div>
+        <a href="tel:+15127154463" class="card-btn">
+          <span>Call To Compare Rates</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. THREE SIMPLE STEPS -->
+  <section class="steps-section">
+    <div class="steps-container">
+      <div class="section-header" style="margin-bottom: 20px;">
+        <span class="section-subtitle">Effortless Resolution</span>
+        <h3>How It Works</h3>
+        <p>Three straightforward steps to get your energy questions answered without delay.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-box">
+          <div class="step-number">1</div>
+          <h5>Dial Our Helpline</h5>
+          <p>Tap any call button on this page or dial <strong>+1 (512) 715-4463</strong> from any mobile or landline device.</p>
+        </div>
+        <div class="step-box">
+          <div class="step-number">2</div>
+          <h5>Share Your Issue</h5>
+          <p>Tell our support agent what you need—whether it is a billing query, payment option inquiry, or new service setup.</p>
+        </div>
+        <div class="step-box">
+          <div class="step-number">3</div>
+          <h5>Receive Direct Help</h5>
+          <p>Get guided solutions, contact routing, and immediate clarity to resolve your energy account inquiries.</p>
+        </div>
+      </div>
+
+      <!-- Mid Call Banner -->
+      <div class="mid-cta">
+        <h3>Have an Urgent Question About Your Energy Account?</h3>
+        <p>Our specialists are on standby to take your call and guide you through payment procedures, billing inquiries, and service activations.</p>
+        <a href="tel:+15127154463" class="btn-white">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>Call (512) 715-4463 Now</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FREQUENTLY ASKED QUESTIONS -->
+  <section class="section" id="faq">
+    <div class="section-header">
+      <span class="section-subtitle">Common Questions</span>
+      <h3>Frequently Asked Questions</h3>
+      <p>Clear, transparent answers about our independent support helpline.</p>
+    </div>
+
+    <div class="faq-container">
+      <!-- FAQ 1 -->
+      <div class="faq-item active">
+        <div class="faq-question">
+          <span>Are you affiliated with my local utility or electric company?</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+        <div class="faq-answer">
+          <strong>No, absolutely not.</strong> EnergyAssist Hub is an independent third-party consumer assistance directory and advisory service operated by World Tech Stop. We are not owned, operated, endorsed by, or affiliated with any government department, public utility board, or specific retail electricity provider. We exist to provide consumer guidance, bill review support, and help callers connect with appropriate options.
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What should I do if I smell gas or experience a power emergency?</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+        <div class="faq-answer">
+          <strong>Safety First:</strong> If you smell gas, suspect a gas leak, or see a downed power line, immediately evacuate the premises and call <strong>911</strong> or contact your local utility's emergency dispatch number directly. Do not use standard informational hotlines for life-threatening emergencies.
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Does it cost anything to call this number?</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+        <div class="faq-answer">
+          Calls to +1 (512) 715-4463 are subject to your telephone provider's standard airtime and domestic calling rates. Our basic guidance and consultation over the phone are complimentary. If you choose any optional premium third-party service or switch to a provider with enrollment fees, all costs and terms will be clearly explained to you prior to authorization.
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Can you take my bill payment directly over the phone?</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+        <div class="faq-answer">
+          Our representatives provide guidance on verified payment methods, official payment portals, extension request protocols, and authorized pay-stations for your specific service provider. We do not store sensitive payment information without explicit consent and certified compliance.
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How can I contact your business directly for administrative inquiries?</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+        <div class="faq-answer">
+          You can reach our business management team directly at <strong>worldtechstop@gmail.com</strong> or via phone at <strong>+1 (512) 715-4463</strong>. We welcome inquiries, consumer feedback, and directory corrections.
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. PROMINENT COMPLIANCE & LEGAL NOTICE BOX -->
+    <div class="legal-highlight-box">
+      <h4>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        Full Non-Affiliation & Commercial Disclosure Notice
+      </h4>
+      <p>
+        <strong>1. Independent Third-Party Operation:</strong> This website and telephone helpline are owned and maintained by <strong>World Tech Stop</strong> as an independent commercial referral and informational directory. This service is <strong>NOT</strong> an official utility, electrical cooperative, or government assistance agency.
+      </p>
+      <p>
+        <strong>2. Brand Trademarks:</strong> Any utility names, service marks, logos, or brand identifiers mentioned are the property of their respective trademark owners and are referenced strictly for nominative, identification, and consumer navigation purposes under Fair Use. Such mention does not imply sponsorship, affiliation, or endorsement.
+      </p>
+      <p>
+        <strong>3. Consumer Freedom:</strong> Consumers have the right to contact their local electric transmission and distribution utility or retail electric provider directly at no charge using the customer service telephone numbers printed on their official utility bills.
+      </p>
+    </div>
+  </section>
+
+  <!-- 9. FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <!-- Col 1 -->
+        <div class="footer-col">
+          <h5>EnergyAssist Hub</h5>
+          <p>An independent consumer directory and phone assistance platform committed to helping customers navigate energy billing, account questions, and service connections with ease.</p>
+          <p style="font-size: 0.78rem; color: #64748b;">Operated by World Tech Stop.</p>
+        </div>
+
+        <!-- Col 2 -->
+        <div class="footer-col">
+          <h5>Direct Contact</h5>
+          <ul class="footer-contacts">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+15127154463">+1 (512) 715-4463</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:worldtechstop@gmail.com">worldtechstop@gmail.com</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Available 24/7 for Inquiries</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Col 3 -->
+        <div class="footer-col">
+          <h5>Legal Policies & Compliance</h5>
+          <ul class="footer-links">
+            <li><button type="button" onclick="openModal('termsModal')">Terms &amp; Conditions</button></li>
+            <li><button type="button" onclick="openModal('privacyModal')">Privacy Policy</button></li>
+            <li><button type="button" onclick="openModal('disclaimerModal')">Third-Party Disclaimer</button></li>
+            <li><button type="button" onclick="openModal('consumerModal')">Consumer Rights &amp; Disclosure</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 EnergyAssist Hub | World Tech Stop. All Rights Reserved. This site is for consumer assistance and informational routing purposes only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 10. FIXED MOBILE STICKY CALL BAR (CALL-TO-CLICK FOCUS) -->
+  <div class="sticky-call-bar">
+    <a href="tel:+15127154463" class="sticky-call-btn" id="stickyBottomCallBtn" aria-label="Call +15127154463 Now">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      <span>Tap To Call: (512) 715-4463</span>
+    </a>
+  </div>
+
+  <!-- 11. POLICY MODALS (SELF-CONTAINED IN THE SAME HTML) -->
+  
+  <!-- Terms Modal -->
+  <div class="modal-backdrop" id="termsModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Terms &amp; Conditions</h3>
+        <button class="modal-close-btn" onclick="closeModal('termsModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Effective Date:</strong> January 1, 2026 | <strong>Operated by:</strong> World Tech Stop</p>
+        
+        <h4>1. Nature of Service</h4>
+        <p>EnergyAssist Hub is an independent telephone directory and consumer assistance service operated by World Tech Stop. By placing a call to <strong>+1 (512) 715-4463</strong> or browsing this website, you acknowledge and agree that you are contacting an independent third-party assistance entity and not your municipal or investor-owned utility company directly.</p>
+        
+        <h4>2. Non-Affiliation Warranty</h4>
+        <p>World Tech Stop explicitly disclaims any direct corporate affiliation, endorsement, agency, or partnership with local power generation, transmission, or utility entities. All references to utility services are solely descriptive.</p>
+        
+        <h4>3. User Responsibility & Billing</h4>
+        <p>Users are solely responsible for ensuring that their utility bills are paid on time to avoid disconnection. EnergyAssist Hub acts as an advisory facilitator and cannot prevent disconnection orders issued by your official utility company.</p>
+        
+        <h4>4. Limitation of Liability</h4>
+        <p>In no event shall World Tech Stop or its representatives be liable for any indirect, incidental, punitive, or consequential damages resulting from utility disconnections, power outages, tariff rate changes, or billing disputes with external retail electric providers.</p>
+
+        <h4>5. Contact Information</h4>
+        <p>For any questions regarding these Terms, contact our business administrator at <strong>worldtechstop@gmail.com</strong>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Privacy Policy Modal -->
+  <div class="modal-backdrop" id="privacyModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Privacy Policy</h3>
+        <button class="modal-close-btn" onclick="closeModal('privacyModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Effective Date:</strong> January 1, 2026 | <strong>Operated by:</strong> World Tech Stop</p>
+        
+        <h4>1. Information We Collect</h4>
+        <p>When you browse our landing page or place a call to our helpline (+1 512 715 4463), we may collect:</p>
+        <ul>
+          <li>Caller ID information (phone number from which you call) for call routing purposes.</li>
+          <li>Basic technical logs such as IP address, browser type, and referrer headers for server security and spam mitigation.</li>
+          <li>Information you voluntarily disclose during your telephone consultation to assist with your inquiry.</li>
+        </ul>
+
+        <h4>2. Use of Information</h4>
+        <p>Collected details are used exclusively to route your telephone inquiry, provide customer support guidance, comply with telecommunications regulations, and prevent fraudulent activity.</p>
+
+        <h4>3. No Sale of Personal Information</h4>
+        <p>We do not sell, rent, or trade your personal information or telephone numbers to unassociated marketing third parties. We treat all caller disclosures with strict confidentiality.</p>
+
+        <h4>4. Data Security & Inquiries</h4>
+        <p>We implement industry-standard technical measures to safeguard information. For privacy-related requests or data deletion, email our administrative team at <strong>worldtechstop@gmail.com</strong>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third-Party Disclaimer Modal -->
+  <div class="modal-backdrop" id="disclaimerModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Third-Party &amp; Advertising Disclaimer</h3>
+        <button class="modal-close-btn" onclick="closeModal('disclaimerModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>1. Independent Operation</h4>
+        <p>This website and promotional campaigns are managed exclusively by <strong>World Tech Stop</strong>. We are a privately operated referral directory and consumer guidance portal.</p>
+
+        <h4>2. Nominative Fair Use</h4>
+        <p>Any utility names, regional providers, or trademarks referenced on this page are strictly for nominative fair use to describe the geographical or service scope of caller inquiries. No affiliation, endorsement, or formal partnership exists between World Tech Stop and these trademark owners.</p>
+
+        <h4>3. Direct Provider Access</h4>
+        <p>Consumers always have the right to contact their local electric distribution company or electric retail provider directly through the official contact numbers printed on their monthly billing statements.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Consumer Rights Modal -->
+  <div class="modal-backdrop" id="consumerModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Consumer Rights &amp; Disclosure</h3>
+        <button class="modal-close-btn" onclick="closeModal('consumerModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>1. Transparency in Customer Guidance</h4>
+        <p>Our telephone agents provide honest, transparent information regarding electricity plans, billing structures, and consumer assistance programs. You are under no obligation to proceed with any service or recommendation discussed during your call.</p>
+
+        <h4>2. Telecommunications Charges</h4>
+        <p>Standard telephone network rates apply to all outbound calls based on your specific mobile or landline carrier plan. We do not bill premium 900-number surcharges to your phone bill.</p>
+
+        <h4>3. Immediate Utility Emergencies</h4>
+        <p>For gas leaks, electrical fires, fallen lines, or medical emergencies tied to power outages, hang up and dial <strong>911</strong> or contact your city emergency dispatch immediately.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 12. JAVASCRIPT FOR ACCORDION AND MODALS -->
+  <script>
+    // FAQ Accordion Toggle
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const item = question.parentElement;
+        const isActive = item.classList.contains('active');
+        
+        // Close all items
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        
+        // Open clicked item if not previously active
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+
+    // Modal Helpers
+    function openModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    }
+
+    // Close modal on backdrop click
+    window.addEventListener('click', (e) => {
+      if (e.target.classList.contains('modal-backdrop')) {
+        e.target.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Close modal on ESC key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-backdrop.open').forEach(modal => {
+          modal.classList.remove('open');
+        });
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Optional Call-Click Analytics Helper (ready for Google Ads GTAG / Ads Conversion)
+    function trackCallClick(label) {
+      if (typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-CONVERSION_ID/LABEL', // Replace with Google Ads Conversion snippet if desired
+          'event_category': 'Phone Call',
+          'event_label': label
+        });
+      }
+      console.log('Call click initiated:', label);
+    }
+
+    document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+      link.addEventListener('click', function() {
+        trackCallClick(this.id || 'tel_link');
+      });
+    });
+  </script>
+</body>
+</html>
